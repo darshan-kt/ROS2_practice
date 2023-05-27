@@ -28,7 +28,7 @@ int main(int argc, char **argv)
     rclcpp::init(argc, argv);    //Initialize node
 
     auto node = std::make_shared<MyNode>();  //Create node object using share_ptr 
-    RCLCPP_INFO(node->get_logger(), "Hello CPP Node");
+    // RCLCPP_INFO(node->get_logger(), "Hello CPP Node");
     rclcpp::spin(node);                      //pause code here & allow node tobe alive
 
     rclcpp::shutdown();           //Shutdown node

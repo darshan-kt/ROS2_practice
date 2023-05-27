@@ -8,5 +8,8 @@
         "/home/darshan/udemy/ros2_ws/install/ros2py_tutorials/lib/python3.6/site-packages",
         "/opt/ros/melodic/lib/python2.7/dist-packages",
         "/opt/ros/dashing/lib/python3.6/site-packages"
-    ]
+    ],
+    "files.associations": {
+        "chrono": "cpp"
+    }
 }
